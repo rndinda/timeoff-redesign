@@ -5,8 +5,8 @@ for the users involved.
 
 ## Tools and Stack
 - Django
-- React + Vite (Typescript)
-- Postgresql + Neon Serverless DB
+- Next.js + React (Typescript)
+- Postgresql
 
 ## Notes
 _Document is subject to change over the course of the project_ 
