@@ -1,6 +1,6 @@
 <img src="timeoff_front/public/timeoff_logo-nobg.png" height="60" width="150" style="margin-top: 50px; display: block; margin-left: auto; margin-right: auto"/>
 
-# Timeoff v1
+# Timeoff v2
 
 This is the official complete build of the Timeoff v1 project. It includes all the necessary files and configurations to run the application.
 The system carries on from the demo that was deployed to the involved company in location X.
