@@ -1,5 +1,4 @@
-
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card";
 import { Clock, UserCheck, UserX, Calendar } from "lucide-react";
 
 export const RecentActivity = () => {

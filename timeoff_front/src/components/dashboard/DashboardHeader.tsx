@@ -1,6 +1,5 @@
-
-import { Button } from "@/components/ui/button";
-import { Clock, Bell, User, Settings } from "lucide-react";
+import { Button } from "../../components/ui/button";
+import { Bell, User, Settings } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export const DashboardHeader = () => {
@@ -9,21 +8,20 @@ export const DashboardHeader = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Clock className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">AttendEase</span>
+            <img src="/timeoff_logo-nobg.png" alt="Timeoff Logo" className="h-10" />
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link to="/management/dashboard" className="text-gray-700 hover:text-blue-600 font-medium">
               Dashboard
             </Link>
-            <Link to="/attendance" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link to="/management/attendance" className="text-gray-700 hover:text-blue-600 font-medium">
               Attendance
             </Link>
-            <Link to="/leave" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link to="/management/leave" className="text-gray-700 hover:text-blue-600 font-medium">
               Leave Management
             </Link>
-            <Link to="/reports" className="text-gray-700 hover:text-blue-600 font-medium">
+            <Link to="/management/reports" className="text-gray-700 hover:text-blue-600 font-medium">
               Reports
             </Link>
           </nav>

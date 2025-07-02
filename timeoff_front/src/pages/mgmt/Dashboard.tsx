@@ -1,21 +1,20 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card";
+import { Button } from "../../components/ui/button";
 import { 
   Users, 
   Clock, 
   Calendar, 
   TrendingUp, 
-  UserCheck, 
-  UserX,
+  UserCheck,
   CalendarDays,
   BarChart3
 } from "lucide-react";
-import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { StatsCards } from "@/components/dashboard/StatsCards";
-import { RecentActivity } from "@/components/dashboard/RecentActivity";
-import { LeaveRequests } from "@/components/dashboard/LeaveRequests";
-import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
+import { DashboardHeader } from "../../components/dashboard/DashboardHeader";
+import { StatsCards } from "../../components/dashboard/StatsCards";
+import { RecentActivity } from "../../components/dashboard/RecentActivity";
+import { LeaveRequests } from "../../components/dashboard/LeaveRequests";
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "../../components/ui/chart";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts";
 import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {

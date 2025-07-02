@@ -1,11 +1,10 @@
-
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Switch } from "@/components/ui/switch";
-import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { Bell, Check, X, Clock, UserCheck, Calendar } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Badge } from "../components/ui/badge";
+import { Switch } from "../components/ui/switch";
+import { DashboardHeader } from "../components/dashboard/DashboardHeader";
+import { Bell, Check, Clock, UserCheck, Calendar } from "lucide-react";
 
 const Notifications = () => {
   const [notifications, setNotifications] = useState([

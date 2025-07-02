@@ -1,14 +1,13 @@
-
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { User, Mail, Phone, MapPin, Calendar, Clock, Award, Camera } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Label } from "../components/ui/label";
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Badge } from "../components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
+import { DashboardHeader } from "../components/dashboard/DashboardHeader";
+import { User, Mail, MapPin, Calendar, Clock, Camera } from "lucide-react";
 import { toast } from "sonner";
 
 const UserProfile = () => {

@@ -1,6 +1,5 @@
-
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { CheckCircle, Clock, Users, BarChart3, Calendar, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -44,15 +43,14 @@ const Index = () => {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Clock className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">AttendEase</span>
+            <img src="/timeoff_logo-nobg.png" alt="Timeoff Logo" className="h-10" />
           </div>
           <div className="flex items-center space-x-4">
             <Button variant="ghost" asChild>
-              <Link to="/dashboard">Dashboard</Link>
+              <Link to="/management/dashboard">Dashboard</Link>
             </Button>
             <Button asChild>
-              <Link to="/dashboard">Get Started</Link>
+              <Link to="/management/dashboard">Get Started</Link>
             </Button>
           </div>
         </nav>
@@ -114,7 +112,7 @@ const Index = () => {
             Ready to transform your attendance management?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of companies already using AttendEase
+            Join thousands of companies already using Timeoff in streamlining their leave and attendance processes.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link to="/dashboard">Get Started Today</Link>
@@ -126,11 +124,10 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center space-x-2 mb-8">
-            <Clock className="h-6 w-6" />
-            <span className="text-xl font-bold">AttendEase</span>
+            <img src="/timeoff_logo-nobg.png" alt="Timeoff Logo" className="h-10" />
           </div>
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 AttendEase. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} TimeOff. All rights reserved.</p>
           </div>
         </div>
       </footer>
