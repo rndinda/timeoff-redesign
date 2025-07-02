@@ -5,7 +5,7 @@ import { z } from "zod";
 import { format } from "date-fns";
 import { CalendarIcon, Send, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { cn } from "../lib/utils";
+import { cn } from "../library/utils";
 import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";

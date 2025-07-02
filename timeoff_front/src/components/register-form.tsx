@@ -1,4 +1,4 @@
-import {cn} from "../lib/utils"
+import {cn} from "../library/utils"
 import React, {useState} from "react"
 import {Button} from "../components/ui/button"
 import {

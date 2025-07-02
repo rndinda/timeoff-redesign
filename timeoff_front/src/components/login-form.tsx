@@ -1,5 +1,5 @@
 import React from "react"
-import { cn } from "../lib/utils"
+import { cn } from "../library/utils"
 import { Button } from "./ui/button.tsx"
 import { Card, CardContent } from "./ui/card"
 import { Input } from "./ui/input"
