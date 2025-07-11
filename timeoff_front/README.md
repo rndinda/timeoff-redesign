@@ -1,4 +1,3 @@
-# Timeoff v2
+# Timeoff Frontend
 
-This is the presentation layer/UI for the Timeoff platform used to manage leave days and clocking in
-and out requests from employees.
+This is the 1/2 of the Timeoff monorepo and it features the frontend parts of the system created using Vite, Shadcn and Tailwindcss.
