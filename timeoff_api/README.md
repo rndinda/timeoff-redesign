@@ -61,6 +61,7 @@ The Timeoff API provides endpoints to manage time off requests, including creati
 ---
 
 ### leave
+
 #### Leave Model
 
 ```json
@@ -80,6 +81,7 @@ The Timeoff API provides endpoints to manage time off requests, including creati
 ```
 
 #### Leave Endpoints
+
 - `/leave/` - List all leave requests
 - `/leave/<uuid:user_id>/` - Get leave request details by ID for specific user
 - `/leave/create/` - Create a new leave request
@@ -105,6 +107,7 @@ The Timeoff API provides endpoints to manage time off requests, including creati
 ```
 
 #### Notification Endpoints
+
 - `/notifications/` - List all notifications
 - `/notifications/<uuid:user_id>/` - Get notifications for a specific user
 - `/notifications/<uuid:notification_id>/` - Get notification details by ID
@@ -114,7 +117,7 @@ The Timeoff API provides endpoints to manage time off requests, including creati
 
 ---
 
-### users
+### Accounts
 
 #### User Model
 
@@ -148,3 +151,8 @@ The Timeoff API provides endpoints to manage time off requests, including creati
 - `/user/profile/<uuid:user_id>/update/` - Update user details by ID
 - `/user/profile/<uuid:user_id>/delete/` - Delete user by ID
 
+---
+
+### reports
+
+_Utilizes `services` for functionality_
